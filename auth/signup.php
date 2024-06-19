@@ -39,7 +39,7 @@
     
 
     <!-- Normal Breadcrumb Begin -->
-    <section class="normal-breadcrumb set-bg" data-setbg="<?php echo APPURL; ?>/img/normal-breadcrumb.jpg">
+    <section class="normal-breadcrumb set-bg" data-setbg="<?php echo IMAGEURL; ?>/hero-1.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -57,7 +57,7 @@
     <section class="signup spad">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <div class="login__form">
                         <h3>Sign Up</h3>
                         <form action="signup.php" method="POST">
@@ -76,6 +76,12 @@
                             <button type="submit" name="submit" class="site-btn">Register</button>
                         </form>
                         <h5>Already have an account? <a href="login.php">Log In!</a></h5>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="login__register">
+                        <h3>Do you have Account?</h3>
+                        <a href="login.php" class="primary-btn">Login Now</a>
                     </div>
                 </div>
                
